@@ -64,7 +64,7 @@ export default defineConfig(({ command, mode }) => {
       {
         entry: 'utools/preload.ts',
         onstart({ reload }) {
-          // Notify the Renderer process to reload the page when the Preload scripts build is complete,
+          // Notify the Renderer process to reload the page when the Preload scripts build is complete,pnpm
           // instead of restarting the entire Electron App.
           reload()
         },

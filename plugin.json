@@ -10,10 +10,16 @@
 	"homepage": "https://github.com/QC2168",
 	"features": [
 		{
-			"code": "template",
-			"explain": "插件模板主界面",
+			"code": "index",
+			"explain": "主页页面",
 			"cmds": [
-				"template"
+				"index"
+			]
+		}, {
+			"code": "setting",
+			"explain": "设置页面",
+			"cmds": [
+				"设置"
 			]
 		}
 	]
